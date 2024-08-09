@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Barley",
+        "color": "#F7E5B7",
+        "row_spacing_cm": 75,
+        "plant_spacing_cm": 50,
+        
+        "varieties": [
+            {
+                "name": "Purple Karma",
+                "color": "purple"
+            },
+            {
+                "name": "Black Hulless",
+                "color": "black"
+            }
+        ]
+    },
+    {
+        "name": "Tomato",
+        "color": "red",
+        "row_spacing_cm": 75,
+        "plant_spacing_cm": 50
+    }
+]

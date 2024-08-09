@@ -1,0 +1,74 @@
+
+
+:root {
+  --primary-100:#2E8B57;
+  --primary-200:#61bc84;
+  --primary-300:#c6ffe6;
+  /* --accent-100: #2E8B57;
+  --accent-200: #61bc84; */
+
+  --input-shadow-color: #2E8B573F;
+  --bs-btn-close-color: var(--text-100) !important;
+
+  --text-100: #1E1E1E;
+  --text-200: #2d2d2d;
+
+  --bg-100: #FFFFFF;
+  --bg-200: #d8d8d8;
+  --bg-300: #F5F3F7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-100:#2E8B57;
+    --primary-200:#61bc84;
+    --primary-300:#c6ffe6;
+    --accent-100:#8FBC8F;
+    --accent-200:#345e37;
+
+    --text-100:#FFFFFF;
+    --text-200:#e0e0e0;
+
+    --bs-btn-close-color: var(--text-100) !important;
+
+
+    --bg-100:#1E1E1E;
+    --bg-200:#2d2d2d;
+    --bg-300:#393939;
+
+
+    --bs-border-color: #454545 !important;
+  }
+}
+
+input {
+  color: var(--text-100)
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg-100) !important;
+  color: var(--text-100) !important;
+
+  /* color: rgb(var(--foreground-rgb)); */
+  /* background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+}
+
+.form-control, .form-select {
+  background-color: var(--bg-200) !important;
+  color: var(--text-100) !important;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--primary-100) !important;
+  box-shadow: 0 0 0 .25rem var(--input-shadow-color) !important;
+}
+
+.btn-primary {
+
+}
